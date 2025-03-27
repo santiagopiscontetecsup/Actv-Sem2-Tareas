@@ -8,7 +8,7 @@ public class Tarea
     public string Estado { get; set; }
     
     
-    public int PersonaId { get; set; }
+    public int? PersonaId { get; set; }
     
-    public Persona Persona { get; set; }
+    public Persona? Persona { get; set; }
 }
