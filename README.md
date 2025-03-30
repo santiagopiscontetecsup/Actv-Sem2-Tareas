@@ -68,7 +68,5 @@ Se registraron todas las contribuciones en el repositorio del proyecto. A contin
 ![Commits 3](https://github.com/user-attachments/assets/1928a6e5-2e19-4ce7-86d0-8cf13a6823d0)
 --------------------------------------------
 ![Commits 4](https://github.com/user-attachments/assets/95805f8b-62f5-434b-8f6c-7d5f3b359200)
-
 --------------------------------------------
-
-
+![Commits 5](https://github.com/user-attachments/assets/5877a0fd-b7d5-46eb-bd40-1f1cb309a866)
