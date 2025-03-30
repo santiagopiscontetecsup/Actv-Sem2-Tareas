@@ -7,4 +7,8 @@
         <RootNamespace>Actv_Sem2_TareaGestion</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="8.0.0" />
+    </ItemGroup>
+
 </Project>

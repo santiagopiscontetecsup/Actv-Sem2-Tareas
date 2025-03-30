@@ -51,4 +51,14 @@ public class TareasController : ControllerBase
 
         return Ok(tarea);
     }
+    //Eliminar Tarea
+    [HttpDelete("{id}")]
+    public IActionResult EliminarTarea(int id)
+    {
+        var tarea = Repositorio.Tareas.FirstOrDefault(t => t.Id == id);
+        if (tarea == null)
+            return NotFound();
+        Repositorio.Tareas.Remove(tarea);
+        return Ok("Tarea eliminada correctamente");
+    }
 }
