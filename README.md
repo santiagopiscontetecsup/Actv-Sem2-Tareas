@@ -1,5 +1,5 @@
 --------------------------------------------
-# Proyecto: Pruebas de Endpoints y Commits
+# Proyecto: Pruebas de Endpoints 
 --------------------------------------------
 
 ## **Integrantes del Equipo**
