@@ -22,15 +22,19 @@ public class PersonasController : ControllerBase
     {
         return Ok(Repositorio.Personas);
     }
-
+    
     // Obtener una persona por ID
-    [HttpGet("{id}")]
+    [HttpGet("{id:int}")]
     public IActionResult ObtenerPersona(int id)
     {
-        var persona = Repositorio.Personas.FirstOrDefault(p => p.Id == id);
+        if (id <= 0)
+            return BadRequest("El ID debe ser un número positivo.");
+    
+        var persona = Repositorio.Personas.Find(p => p.Id == id); // Usar Find si está disponible
+    
         if (persona == null)
-            return NotFound();
-
+            return NotFound($"No se encontró una persona con el ID {id}.");
+    
         return Ok(persona);
     }
 }
