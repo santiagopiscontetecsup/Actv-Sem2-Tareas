@@ -17,7 +17,6 @@ public class PersonasController : ControllerBase
         return CreatedAtAction(nameof(ObtenerPersona), new { id = nuevaPersona.Id }, nuevaPersona);
     }
 
-    // Obtener todas las personas
     [HttpGet]
     public IActionResult ObtenerPersonas()
     {
