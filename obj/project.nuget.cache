@@ -1,15 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "fjsdAn2aB7s=",
+  "dgSpecHash": "8U+ykXqfUhc=",
   "success": true,
-  "projectFilePath": "D:\\2025-A\\EMPRES-AVANZA\\S2TareaLindaAroni\\Actv-Sem2-Tareas\\Actv-Sem2-TareaGestion.csproj",
+  "projectFilePath": "C:\\Users\\ribey\\RiderProjects\\Actv-Sem2-Tareas\\Actv-Sem2-TareaGestion.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\LINDA\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\LINDA\\.nuget\\packages\\microsoft.openapi\\1.6.23\\microsoft.openapi.1.6.23.nupkg.sha512",
-    "C:\\Users\\LINDA\\.nuget\\packages\\swashbuckle.aspnetcore\\8.0.0\\swashbuckle.aspnetcore.8.0.0.nupkg.sha512",
-    "C:\\Users\\LINDA\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\8.0.0\\swashbuckle.aspnetcore.swagger.8.0.0.nupkg.sha512",
-    "C:\\Users\\LINDA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\8.0.0\\swashbuckle.aspnetcore.swaggergen.8.0.0.nupkg.sha512",
-    "C:\\Users\\LINDA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\8.0.0\\swashbuckle.aspnetcore.swaggerui.8.0.0.nupkg.sha512"
+    "C:\\Users\\ribey\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\ribey\\.nuget\\packages\\microsoft.openapi\\1.6.23\\microsoft.openapi.1.6.23.nupkg.sha512",
+    "C:\\Users\\ribey\\.nuget\\packages\\swashbuckle.aspnetcore\\8.0.0\\swashbuckle.aspnetcore.8.0.0.nupkg.sha512",
+    "C:\\Users\\ribey\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\8.0.0\\swashbuckle.aspnetcore.swagger.8.0.0.nupkg.sha512",
+    "C:\\Users\\ribey\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\8.0.0\\swashbuckle.aspnetcore.swaggergen.8.0.0.nupkg.sha512",
+    "C:\\Users\\ribey\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\8.0.0\\swashbuckle.aspnetcore.swaggerui.8.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\ribey\\RiderProjects\\Actv-Sem2-Tareas\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

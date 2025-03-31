@@ -51,7 +51,38 @@ public class TareasController : ControllerBase
 
         return Ok(tarea);
     }
-    //Eliminar Tarea
+
+    //Edit Task
+
+    [HttpPut("{tareaId}")]
+    public IActionResult ActualizarTarea(int tareaId, [FromBody] Tarea nuevaTarea)
+    {
+        var tarea = Repositorio.Tareas.FirstOrDefault(t => t.Id == tareaId);
+        
+        if (tarea == null)
+            return NotFound("Tarea no encontrada.");
+
+        tarea.Title = nuevaTarea.Title;
+        tarea.Description = nuevaTarea.Description;
+        tarea.Estado = nuevaTarea.Estado;
+
+
+        if (nuevaTarea.PersonaId != null)
+        {
+            var persona = Repositorio.Personas.FirstOrDefault(p => p.Id == nuevaTarea.PersonaId);
+            if (persona == null)
+                return NotFound("Persona no encontrada.");
+
+            tarea.PersonaId = nuevaTarea.PersonaId;
+            persona.Tareas.Add(tarea);
+        }
+
+        return Ok(tarea);
+
+    }
+
+
+//Eliminar Tarea
     [HttpDelete("{id}")]
     public IActionResult EliminarTarea(int id)
     {
@@ -62,3 +93,5 @@ public class TareasController : ControllerBase
         return Ok("Tarea eliminada correctamente");
     }
 }
+
+
