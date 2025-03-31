@@ -55,6 +55,12 @@ Se le asigno la tarea a la persona con el id "1" correctamente como se observa e
 ![image](https://github.com/user-attachments/assets/367216b5-b665-4e38-80e0-d2ce07113cfd)
 Tras eliminar la tarea que es identificado con el id "1" la lista de tareas se muestra vacia.
 --------------------------------------------
+5. Tipo "PUT"
+/api/tareas/{tareaid}
+![image](https://github.com/user-attachments/assets/17a995bf-f662-4386-bd23-795fa64cb92e)
+
+Tras Editar la tarea que es identificado con tareaID "1" se procede a actualizar los campos correspondientes.
+--------------------------------------------
 ## **Contribuciones de los Integrantes**
 
 Se registraron todas las contribuciones en el repositorio del proyecto. A continuación, se presentan capturas de los commits realizados por cada integrante:
